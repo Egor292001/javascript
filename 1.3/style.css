@@ -1,0 +1,115 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-size: 100%;
+  font-family: calibri;
+}
+.head{
+  width: 100%;
+  height: 304px;
+  background: url(head.jpg) 50% no-repeat;
+  background-size: 100%;
+}
+.butt{
+  width: auto;
+  height: auto;
+  position: absolute;
+  padding: 14px 27px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 19px;
+}
+.butt:hover{
+  background-color: #10356966;
+  cursor: pointer;
+}
+.login{
+  width: 171px;
+  height: 59px;
+  position: absolute;
+  margin-top: -20%;
+  margin-left: 85%;
+  background: url(login.gif) no-repeat;
+}
+.login:hover{
+  cursor: pointer;
+  background-color: #4a69917d;
+}
+.menu{
+  width: 100%;
+  height: 52px;
+  background: #4c6e948a;
+  margin-top: 251px;
+  position: absolute;
+}
+.title{
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  font-size: 19px;
+  font-weight: bold;
+}
+input[type=text], input[type=password] {
+  margin: 5px;
+  padding: 0 10px;
+  width: 200px;
+  height: 34px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  -moz-outline-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+.box{
+  text-align: center;
+}
+.box p.remember_me label {
+  font-size: 15px;
+  color: #777;
+  cursor: pointer;
+}
+.box p.remember_me input {
+  position: relative;
+  bottom: 1px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+input[type=submit] {
+  padding: 0 92px;
+  height: 29px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #527881;
+  border: 1px solid;
+  border-color: #b4ccce #b3c0c8 #9eb9c2;
+  border-radius: 4px;
+  box-sizing: content-box;
+  background-image: linear-gradient(to bottom, #edf5f8, #cde5ef);
+  box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  outline: 0;
+}
+input[type=submit]:active {
+  background: #cde5ef;
+  border-color: #9eb9c2 #b3c0c8 #b4ccce;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  cursor:pointer;
+}
+.restore{
+  font-size: 12px;
+  cursor: pointer;
+  color: #777777;
+  margin-bottom: 140px;
+}
+a{
+ text-decoration: none;
+}
+.bottom{
+  margin-bottom: 20px;
+  font-size: 14px;
+}
