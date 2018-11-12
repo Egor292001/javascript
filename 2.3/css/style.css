@@ -1,0 +1,199 @@
+body {
+  background: #fff;
+  color: #141823;
+  line-height: 1.28;
+  margin: 0;
+  padding: 0;
+  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+.header{
+  padding-bottom: 1px;
+  height: auto;
+  background-color: #3b5998;
+  border: 0;
+  border-bottom: 1px solid #133783;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .52);
+  min-width: 981px;
+  position: relative;
+}
+.logo{
+  width: 170px;
+  height: 36px;
+  background: url("../img/logo.png") 0 -156px no-repeat;
+  background-size: auto;
+  display: inline-block;
+  margin-top: 17px;
+  margin-bottom: 10px;
+  outline:none;
+}
+.block{
+  margin: 0 auto;
+  padding-top: 13px;
+  width: 980px;
+}
+.sign_up{
+  left: 180px;
+  position: absolute;
+  top: -40px;
+  background: url("../img/sign_up.png") 0 -343px no-repeat;
+  background-size: auto;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+  color: #fff;
+  cursor: pointer;
+  padding: 0 6px;
+  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 23px;
+}
+.h_sign{
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  width: auto;
+}
+.sign_up:active{
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .2);
+  background: #609946;
+  border-bottom-color: #3b6e22;
+}
+.login{
+  width: 640px;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.l_header{
+  border-color: #ccc;
+  padding: 6px 0 8px;
+  border-bottom: 1px solid #ccc;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  color: #1c2a47;
+  font-size: 16px;
+  font-weight: bold;
+}
+.l_content{
+  padding-left: 20px;
+  padding-right: 20px;
+  height:auto;
+  padding-top: 10px;
+}
+.login_form{
+  clear: left;
+  margin: auto;
+  padding: 15px 0;
+  text-align: left;
+  width: 380px;
+  font-size:11px
+}
+.form_row {
+  padding: 0 0 8px 0;
+  text-align: left;
+}
+.form_row .login_form_label {
+  display: block;
+  float: left;
+  padding: 3px 0;
+  width: 100px;
+}
+label {
+  cursor: pointer;
+  color: #666;
+  font-weight: bold;
+  vertical-align: middle;
+}
+textarea, .input_text, .input_password {
+  border: 1px solid #bdc7d8;
+  margin: 0;
+  padding: 3px;
+}
+.form_row .input_text, .input_password {
+  width: 175px;
+}
+.persistent {
+  padding: 3px 0 3px 100px;
+  margin-bottom: 10px;
+}
+.uiInputLabelInput {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  cursor: pointer;
+}
+.uiInputLabel .uiInputLabelLabel {
+  display: inline-block;
+  margin-left: 17px;
+  vertical-align: baseline;
+  font-weight: normal;
+  color: #333;
+}
+#buttons {
+  padding: 5px 0 0 100px;
+  text-align: left;
+}
+#login_button_inline {
+  float: left;
+  cursor: pointer;
+  padding: 3px 5px 3px 100px;
+}
+.uiButtonConfirm {
+  background: url("../img/sign_up.png") 0 -49px no-repeat;
+  background-size: auto;
+  border-color: #29447e #29447e #1a356e;
+}
+.uiButtonText, .uiButton input {
+  background: none;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 13px;
+  margin: 0;
+  padding: 1px 0 2px;
+  outline: none;
+}
+.uiButton {
+  cursor: pointer;
+  display: inline-block;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: top;
+  white-space: nowrap;
+  border: 1px solid #29447e;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+}
+.uiButtonConfirm:active {
+  background: #4f6aa3;
+  border-bottom-color: #29447e;
+}
+#register_link {
+  padding: 8px;
+}
+a {
+  color: #3b5998;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.reset_password, .not_me_link {
+  margin-left: 100px;
+}
+.form_row {
+  padding: 0 0 8px 0;
+  text-align: left;
+}
+.content{
+  padding: 70px;
+}
