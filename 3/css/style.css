@@ -37,9 +37,8 @@ html, body{
     width: 20%;
     position: absolute;
     height: 100%;
-    margin-left: 40%;
-    margin-top: -1%;
     z-index: 3;
+    margin: -1% 0 0 40%;
 }
 .phone p{
     font-family: calibri, serif;
@@ -77,10 +76,10 @@ html, body{
     font-weight: lighter;
     font-family: calibri, serif;
     font-size: 18px;
-    padding-left: 45px;
+    padding: 0 0 0 45px;
     text-align: left;
-    margin-top: 22px;
     line-height: 0.9;
+    margin: 22px 0 0 0;
 }
 .text{
     width: 600px;
@@ -92,7 +91,7 @@ html, body{
     font-weight: bold;
     letter-spacing: 0.8px;
     color: #ffea00;
-    margin-bottom: -15px;
+    margin: 0 0 -15px 0;
 }
 .butt1{
     background: url(../img/b_button.png) no-repeat center top;
@@ -113,13 +112,12 @@ html, body{
     width: 100%;
     height: 737px;
     background-size: 850px;
-    margin-top: -150px;
     z-index: 1;
     display: flex;
     flex-direction: column;
     padding-top: 155px;
     align-items: center;
-    margin-left: 45px;
+    margin: -150px 0 0 45px;
 }
 .text p{
     margin-block-end: 7px;
@@ -128,10 +126,9 @@ html, body{
     font-family: calibri, serif;
     font-size: 14px;
     font-weight: lighter;
-    margin-bottom: 35px;
     color: #ffffffb3;
-    margin-top: -15px;
     width: 315px;
+    margin: -15px 0 35px 0;
 }
 .text_title{
     width: 240px;
@@ -139,8 +136,7 @@ html, body{
 }
 .title3{
     width: 480px;
-    margin-left: -45px;
-    margin-top: -30px;
+    margin: -30px 0 0 -45px;
     height: 109px;
 }
 .title3 p{
@@ -153,7 +149,7 @@ html, body{
 .block, .block2{
     width: 680px;
     height: auto;
-    margin-left: -45px;
+    margin: 0 0 0 -45px;
     display: flex;
     flex-direction: row;
     font-family: calibri, serif;
@@ -194,7 +190,7 @@ html, body{
 .img1 p, .img2 p, .img3 p, .img4  p{
     text-align: center;
     color: #000;
-    margin-top: 180px;
+    margin: 180px 0 0 0;
     font-size: 14px;
     width: 168px;
 }
@@ -208,10 +204,9 @@ p a{
     width: 100%;
     height: 737px;
     background-size: 873px;
-    margin-top: -338px;
+    margin: -338px 0 0 -73px;
     display: flex;
     flex-direction: column;
-    margin-left: -73px;
     align-items: center;
     z-index: 1;
 }
@@ -220,10 +215,9 @@ p a{
     width: 100%;
     height: 737px;
     background-size: 802px;
-    margin-top: -71px;
+    margin: -71px 0 0 -3px;
     display: flex;
     flex-direction: column;
-    margin-left: -3px;
     align-items: center;
     z-index: 2;
 }
@@ -232,20 +226,17 @@ p a{
     width: 100%;
     height: 452px;
     background-size: 802px;
-    margin-top: -197px;
+    margin: -197px 0 0 -3px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-left: -3px;
     align-items: center;
     z-index: 1;
 }
 .title4{
     width: 480px;
-    margin-left: 50px;
-    margin-top: -20px;
+    margin: -20px 0 15px 50px;
     height: 109px;
-    margin-bottom: 15px;
 }
 .title4 p{
     text-align: center;
@@ -259,14 +250,12 @@ p a{
     width: 540px;
     height: 300px;
     background-size: 465px;
-    margin-left: 63px;
+    margin: 0 0 0 63px;
 }
 .title4_s{
     width: 480px;
-    margin-left: 50px;
-    margin-top: -40px;
+    margin: -40px 0 40px 50px;
     height: 25px;
-    margin-bottom: 40px;
 }
 .title4_s p{
     text-align: center;
@@ -286,24 +275,23 @@ p a{
 .info{
     width: 407px;
     height: 205px;
-    margin-left: 65px;
+    margin: 0 0 0 65px;
     font-family: Calibri, serif;
     font-size: 14px;
     font-weight: lighter;
-    margin-bottom: 35px;
     color: #fff;
 }
 .t_title{
-    margin-left: 10px;
+    margin: 0 0 0 10px;
 }
 .t_text{
-    margin-right: 60px;
+    margin: 0 60px 0 0;
     text-align: left;
     width: 160px;
 }
 .block2{
     text-align: center;
-    margin-left: 0;
+    margin: 0;
 }
 .img5{
     background: url(../img/icon_1.png) no-repeat center top;
@@ -342,7 +330,7 @@ p a{
 }
 .wallet{
     background: url(../img/money.png) no-repeat center top;
-    margin-top: -5px;
+    margin: -5px 0 0 0;
     height: 25px;
     background-size: 80%;
 }
@@ -351,7 +339,7 @@ p a{
     width: 250px;
     height: 105px;
     background-size: 100%;
-    margin-right: 30px;
+    margin: 0 30px 0 0;
     transition: 0.3s;
 }
 .butt_t1:hover{
@@ -359,7 +347,7 @@ p a{
     width: 250px;
     height: 105px;
     background-size: 100%;
-    margin-right: 30px;
+    margin: 0 30px 0 0;
     cursor: pointer;
 }
 .block_but{
@@ -367,7 +355,7 @@ p a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: -20px;
+    margin: -20px 0 0 0;
 }
 .butt_t2{
     background: url(../img/button_3.png) no-repeat center;
@@ -389,7 +377,7 @@ p a{
     font-family: arial, serif;
     font-weight: bold;
     font-size: 30px;
-    margin-top: 140px;
+    margin: 140px 0 0 0;
 }
 .img_b{
     background: url(../img/sertification.png) no-repeat center;
@@ -429,10 +417,9 @@ p a{
     background: url(../img/input.png) no-repeat center center;
     width: 210px;
     border-radius: 20px;
-    margin-bottom: 10px;
-    padding-left: 10px;
+    margin: 0 0 10px 0;
+    padding: 14px 0 0 10px;
     background-size: 100%;
-    padding-top: 14px;
 }
 .buy_value select{
     border-radius: 0;
@@ -464,8 +451,7 @@ label select option{
 }
 .footer{
     text-align: center;
-    margin-top: -20px;
-    margin-bottom: 40px;
+    margin: -20px 0 40px 0;
     font-family: calibri, serif;
     font-size: 12px;
     font-weight: lighter;
@@ -478,7 +464,7 @@ label select option{
     background: url(../img/online.png) no-repeat;
     width: 50px;
     background-size: 100%;
-    margin-top: 20%;
+    margin: 20% 0 0 0;
     z-index: 3;
     transition: 0.1s;
 }
@@ -488,8 +474,7 @@ label select option{
     background: url(../img/online_hover.png) no-repeat;
     width: 183px;
     background-size: 100%;
-    margin-top: 20%;
-    margin-right: 100px;
+    margin: 20% 100px 0 0;
     cursor: pointer;
     z-index: 3;
 }
