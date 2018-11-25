@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+    <head>
+        <div class="header">
+            <div class="h_title"><a href="#">ToDo List</a></div>
+        </div>
+    </head>
+    <main>
+        <div class="main_box">
+            <div class="box1">
+                <div class="m_title">ToDo List</div>
+            </div>
+            <div class="box2">
+                <p><input type="text" size="40" placeholder="Новое задание" id="task_input" value=""></p>
+                <p><input type="date" placeholder="Дата" id="task_date"></p>
+                <p><input type="submit" name="commit" onclick='addNewTask()' value="Добавить"></p>
+				<p><input type="button" name="commit" onclick='deleteAllTask()' value="Удалить все"></p>
+            </div>
+            <div class="box3" id="all_tasks">
+                <div class="task_none" id="task_none">Список заданий пуст</div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
