@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script defer type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<div class="loading"  id="loading"><div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+	<div class="rl_button" id="overlay">
+		<div class="pv_close_btn" onclick='closeBox()'></div>
+		<div class="main_photo" id="main_photo"></div>
+			<div class="pv_nav_btn_icon pv_right" onclick="rightArrow()"></div>
+			<div class="pv_nav_btn_icon pv_left" onclick="leftArrow()"></div>
+        <div class="counter" id="count"></div>
+		<div id="carousel" class="carousel">
+			<div class="pv_nav_btn_icon carousel_pv_left" onclick="prev()"></div>
+			<div class="gallery">
+				<ul class="images" id="all_images"></ul>
+			</div>
+			<div class="pv_nav_btn_icon carousel_pv_right" onclick="next()"></div>
+		</div>
+	</div>
+	<div class="header">
+		<div class="logo">Photo Gallery</div>
+	</div>
+	<div class="photos" id="all_photos"></div>
+</body>
+</html>
