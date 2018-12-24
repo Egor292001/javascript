@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Houses</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=a31156e4-06c8-4493-bf67-b90cb38c6f37" type="text/javascript"></script>
+    <script defer type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+    <div id="openModal" class="modalDialog">
+    <div>
+        <div class="box_head">
+            <div class="modal_box_title" id="box_title"></div>
+            <div class="modal_box_title2">
+                <div class="box_close" onclick="closeBox()"></div>
+            </div>
+        </div>
+        <div class="box_content" id="box_content"></div>
+    </div>
+    </div>
+    <div class="header_menu">
+        <div class="fav" onclick="favOpen()" id="fav_title">Избранное</div>
+    </div>
+    <div class="header">
+      <div class="search_box">
+          <div class="search">
+              <p><input type="text" size="40" placeholder="Поиск" id="search_input" value=""></p>
+                    <form name="form">
+                        <label>
+                            <select name="country" id="country">
+                                <option value="1">Австралия</option>
+                                <option value="2">Бразилия</option>
+                                <option value="3">Германия</option>
+                                <option value="4">Испания</option>
+                                <option value="5">Франция</option>
+                                <option value="6">Индия</option>
+                                <option value="7">Италия</option>
+                                <option value="8">Мексика</option>
+                                <option selected="selected" value="9">Великобритания</option>
+                            </select>
+                        </label>
+                    </form>
+              <p><input type="submit" name="commit" onclick='searchHouse()' value="Поиск" id="search_btn"></p>
+          </div>
+          <div class="radio_btn">
+              <label><input name="buy" checked="checked" type="radio" value="buy">Купить</label>
+              <label><input name="buy" type="radio" value="rent">Арендовать</label>
+          </div>
+          <div class="more_set" onclick="showSettings()" id="showSettings">Расширенный поиск</div>
+          <div class="width_set" id="width_set" value="0">
+              <div class="price_value">
+                  <div class="price_title">Цена:</div>
+                  <input type="text" size="5" placeholder="Мин" id="price_min" value="">
+                  <div class="from">-</div>
+                  <input type="text" size="5" placeholder="Макс" id="price_max" value="">
+              </div>
+              <div class="room_value">
+                  <div class="room_title">Кол-во комнат:</div>
+                  <input type="text" size="5" placeholder="Мин" id="room_min" value="">
+                  <div class="from">-</div>
+                  <input type="text" size="5" placeholder="Макс" id="room_max" value="">
+              </div>
+              <div class="bath_value">
+                  <div class="bath_title">Кол-во душевых:</div>
+                  <input type="text" size="5" placeholder="Мин" id="bath_min" value="">
+                  <div class="from">-</div>
+                  <input type="text" size="5" placeholder="Макс" id="bath_max" value="">
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="all_result" id="all"></div>
+    <div class="lds-spinner" id="loading"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+</body>
+</html>
